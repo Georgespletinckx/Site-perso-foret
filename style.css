@@ -1,0 +1,54 @@
+/* remise à zéro des marges */
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    color: black;
+}
+
+footer{
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    color: black;
+    padding:1em 0;
+}
+
+.sect1{
+    background-image: url("/images/foret.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20em 0;
+}
+
+.sect11{
+    /* background-color: rgba(223, 223, 223,0.3); */
+    width: 30%;
+    margin-left: 2em;
+}
+
+.sect11 a p{
+    color: rgb(40, 55, 187);
+}
+
+.bouton {
+    background-color: rgba(223, 223, 223,0.5);
+    border-radius: 30px;
+    padding: 1em;
+    display: block;
+    margin: 1em auto 0 auto;
+    font-weight: bold;
+    color: black;
+  }
+
+.sect2{
+    background-color: rgba(223, 223, 223,0.3);
+}
+
+.sect21{
+    margin-left: 2em;
+}

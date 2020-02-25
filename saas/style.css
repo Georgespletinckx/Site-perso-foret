@@ -12,14 +12,18 @@ header {
   color: black;
 }
 
+.ico {
+  display: inline;
+}
+
 footer {
-  background-color: #dfdfdf;
+  background-color: white !important;
   text-align: center;
   color: black;
   padding: 1em 0;
 }
 
-.sect1 {
+.sect1ind {
   background-image: url("../images/foret.JPG");
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,10 +51,57 @@ footer {
 }
 
 .sect2 {
-  background-color: rgba(223, 223, 223, 0.3);
+  background-color: #dfdfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
 }
 
 .sect21 {
   margin-left: 2em;
+  background-color: #dfdfdf;
+}
+
+.sect1mart {
+  background-image: url("../images/martelage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20em 0;
+}
+
+.sect1gest {
+  background-image: url("../images/gestion.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20em 0;
+}
+
+.sect1exp {
+  background-image: url("../images/calam.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20em 0;
+}
+
+.sect1carto {
+  background-image: url("../images/carto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20em 0;
+}
+
+.sect1gibier {
+  background-image: url("../images/sangliers.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20em 0;
+}
+
+.sect1valeur {
+  background-image: url("../images/valeur.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20em 0;
 }
 /*# sourceMappingURL=style.css.map */

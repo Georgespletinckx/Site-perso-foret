@@ -5,10 +5,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
-    background-color: rgb(223, 223, 223);
+.titres{
     text-align: center;
     color: black;
+}
+
+header{
+    background-color: rgb(223, 223, 223);
+}
+
+h1{
+    font-size: 2em!important;
+}
+
+h2{
+    font-size: 1em!important;
+}
+
+h3{
+    font-size: 1em!important;
 }
 
 .ico{
@@ -29,6 +44,18 @@ footer{
     padding:20em 0;
 }
 
+.sect1con{
+    background-image: url("../images/foret.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20em 0;
+}
+
+.contcont{
+    background-color: rgba(223, 223, 223,0.7);
+    border-radius: 30px;
+}
+
 .sect11{
     /* background-color: rgba(223, 223, 223,0.3); */
     width: 30%;
@@ -40,14 +67,18 @@ footer{
 }
 
 .bouton {
-    background-color: rgba(223, 223, 223,0.5);
+    background-color: rgba(223, 223, 223,0.7);
     border-radius: 30px;
-    padding: 1em;
+    padding: 0,5em;
     display: block;
     margin: 1em auto 0 auto;
     font-weight: bold;
-    color: black;
   }
+
+  .sect11 a p {
+    color: black;
+    padding-left: 1em;
+}
 
 .sect2{
     background-color: rgb(223, 223, 223);
@@ -58,6 +89,10 @@ footer{
 .sect21{
     margin-left: 2em;
     background-color:rgb(223, 223, 223);
+}
+
+.sect21 p{
+    margin-bottom: 0;
 }
 
 .sect1mart{
